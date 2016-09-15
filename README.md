@@ -1,8 +1,8 @@
 # LeetCode Practice 
 
-**sparse checkout** check individual folder or directory instead of all of folders.
+**sparse checkout** : check individual folder or directory instead of all of folders.
 
-In order to sparse checkout use:
+In order to sparse checkout you need to use:
 ```bash
 mkdir <repo>
 cd <repo>
