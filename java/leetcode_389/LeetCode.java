@@ -39,5 +39,5 @@ class LeetCode {
             }
             return res;
         }
-    }}
+    }
 }
