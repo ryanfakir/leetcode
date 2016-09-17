@@ -1,4 +1,5 @@
 package leetcode_226;
+
 /**
  * Created by pyan on 9/15/2016.
  */
@@ -7,8 +8,12 @@ class LeetCode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
+
     public TreeNode invertTree(TreeNode root) {
         //corner case
         if (root == null) {
