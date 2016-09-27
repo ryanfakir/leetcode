@@ -1,4 +1,4 @@
-package Leetcode_24;
+package leetcode_24;
 
 /**
  * Created by pyan on 9/24/2016.
