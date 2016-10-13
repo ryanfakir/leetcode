@@ -1,3 +1,5 @@
+package leetcode_168;
+
 /**
  * Created by pyan on 10/6/2016.
  */
