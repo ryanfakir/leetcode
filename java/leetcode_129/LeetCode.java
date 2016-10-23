@@ -39,4 +39,22 @@ public class LeetCode {
             return res;
         }
     }
+
+    public class Solution_recursive {
+        public int sumNumbers(TreeNode root) {
+            int cur = 0;
+            return dfs(root, cur);
+        }
+
+        private int dfs(TreeNode root, int cur) {
+            if (root == null) {
+                return 0;
+            }
+            cur = cur *10 + root.val;
+            if (root.left == null && root.right == null) {
+                return cur;
+            }
+            return dfs(root.left, cur) + dfs(root.right, cur);
+        }
+    }
 }
